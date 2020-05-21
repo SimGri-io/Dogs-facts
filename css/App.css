@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  background-image: url("../images/dog3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.dog-title {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  text-transform: uppercase;
+  font-family: "Indie Flower", cursive;
+}
+.new-container {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: auto;
+  position: absolute;
+  transform: translate(-20rem, 15rem);
+}
+.dog-btn {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 4px solid rgb(138, 172, 179);
+  outline: none;
+  background-color: rgba(48, 124, 191, 0.6);
+  box-shadow: 10px 10px 15px rgba(10, 25, 37, 0.3);
+  position: fixed;
+}
+.dog-btn:active {
+  background-color: rgba(219, 38, 77, 0.7);
+}
+.dog-container {
+  display: flex;
+  margin-top: 6rem;
+  width: 20rem;
+  height: auto;
+  flex-direction: column;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+}
+#dog-facts {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  line-height: 1.7rem;
+}
+
